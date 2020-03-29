@@ -1,4 +1,4 @@
-# Installation instructions for robot_upstart package:
+# my experience with robot_upstart package:
 
 I used the robot_upstart package to generate a service which will run my launch files. 
 
