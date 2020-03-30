@@ -34,7 +34,7 @@ it will ask you to run: `sudo systemctl daemon-reload and sudo systemctl enable 
 * for `led`: run the node as root
 * for `gui`: set Environment=DISPLAY=:0 
 
-a) To avoid root permission, run the led node as root (its done in the launch file using: `launch-prefix="sudo -E"`) and delete the password: 
+a) To avoid root permission, run the led node as root (it can be done in the launch file adding: `launch-prefix="sudo -E"` parameter) and delete the password: 
    
    * run " $ sudo visudo "
    * then modify to look like this:
